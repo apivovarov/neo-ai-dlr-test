@@ -9,7 +9,7 @@ ln -s <path_to_neo-ai-dlr>
 make
 ```
 
-Make should generate `bin/run-resnet` and `bin/run-resnet2` exec files.
+`make` should generate `bin/run-resnet` and `bin/run-resnet2` exec files.
 
 ## Run
 Set `LD_LIBRARY_PATH` to point to `neo-ai-dlr/lib` and try to run `bin/run-resnet`.

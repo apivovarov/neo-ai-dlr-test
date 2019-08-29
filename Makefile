@@ -3,12 +3,6 @@ CC = gcc
 CXX = g++
 
 INCLUDE_DIR := -Ineo-ai-dlr/include
-#INCLUDE_DIR := -Ineo-ai-dlr/include
-#INCLUDE_DIR := $(INCLUDE_DIR) -Ineo-ai-dlr/3rdparty/tvm/src/runtime
-#INCLUDE_DIR := $(INCLUDE_DIR) -Ineo-ai-dlr/3rdparty/tvm/3rdparty/dlpack/include
-#INCLUDE_DIR := $(INCLUDE_DIR) -Ineo-ai-dlr/3rdparty/tvm/3rdparty/dmlc-core/include
-#INCLUDE_DIR := $(INCLUDE_DIR) -Ineo-ai-dlr/3rdparty/tvm/include
-#INCLUDE_DIR := $(INCLUDE_DIR) -Ineo-ai-dlr/3rdparty/treelite/runtime/native/include
 
 LDFLAGS := -Lneo-ai-dlr/lib -ldlr -lpthread
 
